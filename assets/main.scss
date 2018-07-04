@@ -44,7 +44,10 @@ ul, ol, dl, figure,
  */
 img {
   max-width: 100%;
-  vertical-align: middle; }
+  vertical-align: middle;
+  margin: 0 auto;
+  display: block;
+  box-shadow: 0px 0px 8px -1px #444;}
 
 /**
  * Figures
@@ -105,13 +108,15 @@ code {
   font-size: 15px;
   border: 1px solid $lightgrey;
   border-radius: 3px;
-  background-color: cornflowerblue; }
+  // background-color: cornflowerblue;
+  // color: white;
+}
 
 code {
   padding: 1px 5px; }
 
 pre {
-  padding: 8px 12px;
+  // padding: 8px 12px;
   overflow-x: auto; }
   pre > code {
     border: 0;
