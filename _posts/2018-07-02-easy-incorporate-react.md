@@ -1,7 +1,7 @@
 ---
 id: 101
 title: Easy Peasy React Cheesy
-date: 2018-07-04T19:06:00+00:00
+date: 2018-07-04T08:06:00+00:00
 author: Clayton Salem
 layout: post
 guid: http://claytonsalem.com/claytonsalem/?p=101
@@ -151,9 +151,9 @@ handleClick(num) {
     fetch('https://myfirebasebackend', {method: 'PUT', body: JSON.stringify(newCount)})
   }
 ```
-And, yes, I'm doing two things at once in a function. How non-functional of me! Seriously, though, this _feels_ wrong, if you know a "better", or more functional way to do this, let me know.
+And, yes, I'm doing two things at once in a function. How non-functional of me! Seriously, though, this _feels_ wrong, if you know a better, or more functional way to do this, let me know.
 
-We're close, but the value from one browser won't update in another browser, we need to get data from the database in real time. In this case, every second I'll fetch data. First move the fetch `GET` in a function:
+We're close, but the value from one browser won't update in another browser, we need to get data from the database in real time. In this case, every second I'll fetch data. First move the fetch `GET` into a function:
 ```
 tick() {
     fetch(COUNTERAPI)
@@ -220,5 +220,6 @@ let domContainer = document.querySelector('#like_button_container');
 ReactDOM.render(<Counter />, domContainer);
 ```
 
-Thanks, dear reader, if you got this far. The question I set out to answer was, is it easy to add React to an existing site? I think the answer is, yes, it is. But if you want to do anything more complicated than a simple counter, you'll probably want to add JSX. While it's nice that I can compile JSX with relative ease. I think the actual use-case for this in production is pretty limited. After all, I think most JavaScript developers could implement a simple counter without the excess weight of the React libraries. Maybe if I wanted to add a very complicated widget to an existing site, or a situation where the developer wants to slowly transition a site from server-render to client site render.
+Thanks, dear reader, if you got this far. The question I set out to answer was, is it easy to add React to an existing site? I think the answer is, yes, it is. But if you want to do anything more complicated than a simple counter, you'll probably want to add JSX, and the compiler. While it's nice that I can compile JSX with relative ease. I think the actual use-case for this in production is pretty limited. After all, I think most JavaScript developers could implement a simple counter without the excess weight of the React libraries. Maybe if I wanted to add a very complicated widget to an existing site, or a situation where I want to slowly transition a site from server-render to client site render.
+
 What this process _is_ great for is learning. Getting up and running in react in just a few minutes is a real pleasure. And it was fun to write some "plain React" without JSX.
