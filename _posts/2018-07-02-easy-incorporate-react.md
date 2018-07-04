@@ -222,4 +222,6 @@ ReactDOM.render(<Counter />, domContainer);
 
 Thanks, dear reader, if you got this far. The question I set out to answer was, is it easy to add React to an existing site? I think the answer is, yes, it is. But if you want to do anything more complicated than a simple counter, you'll probably want to add JSX, and the compiler. While it's nice that I can compile JSX with relative ease. I think the actual use-case for this in production is pretty limited. After all, I think most JavaScript developers could implement a simple counter without the excess weight of the React libraries. Maybe if I wanted to add a very complicated widget to an existing site, or a situation where I want to slowly transition a site from server-render to client site render.
 
+And this leaves un-expolored the actual challenging part of a real website, which will have some Javascript functionality already in place, probably jQuery. Keeping those the jQuery seperate from React would be a whole other interesting challenge.
+
 What this process _is_ great for is learning. Getting up and running in react in just a few minutes is a real pleasure. And it was fun to write some "plain React" without JSX.
