@@ -19,18 +19,18 @@ description: > # this means to ignore newlines until "baseurl:"
   This is my personal blog where I explore code, content and lifestyle. Less
   of the latter, and more of the former.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://claytonsalem.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: icicleking
 github_username:  claytron5000
 
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
-  - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
 sass:
     sass_dir: sass
     style: :nested
+gems:
+  - jekyll-feed
