@@ -5,7 +5,7 @@ author: Clayton Salem
 layout: post
 permalink: /best-job-ever/
 ---
-I like my job, but it's not the *best* job. And since I deserver the *best* job it's time I found it, lucky for me (Outside Magazine[https://www.outsideonline.com/2257551/100-best-places-work-2017]) already did the work and found the best 100 places to work!
+I like my job, but it's not the *best* job. And since I deserver the *best* job it's time I found it, lucky for me [Outside Magazine](https://www.outsideonline.com/2257551/100-best-places-work-2017) already did the work and found the best 100 places to work!
 
 But Clayton, you say, that's a two year old post, and how come you trust some magazine to decide what is best for you? Well, I don't, and it is, but I'm taking the day off and web scrapping relaxes me.
 
@@ -78,7 +78,7 @@ Some of you might've gotten there first, but I'm a procedural kinda guy...
 ```
 Array.from(document.querySelectorAll('.article__body h2')).filter(h2 => parseInt(h2.innerText.substring(0,1))).map(h2 => { return {name: h2.innerText, dataParagraph: h2.nextSibling}})
 ```
-This is a little leap ahead, but I'm learning here. We now have something that looks like it's taking shape, an object with a company name, and a paragraph that contains out data. However, I know there are a bunch of empty paragraphs and figures following some titles. Basically, we want to do a `nextSibling` on each subsequent element until we get a paragraph with content. Do you think we should start making functions? [very gravelly voice] Where we're going, we don't **need** functions.
+This is a little leap ahead, but I'm learning here. We now have something that looks like it's taking shape, an object with a company name, and a paragraph that contains my data. However, I know there are a bunch of empty paragraphs and figures following some titles. Basically, we want to do a `nextSibling` on each subsequent element until we get a paragraph with content. Do you think we should start making functions? [very gravelly voice] Where we're going, we don't **need** functions.
 
 ```
 Array.from(document.querySelectorAll('.article__body h2')).filter(h2 => parseInt(h2.innerText.substring(0,1))).map(h2 => { return {name: h2.innerText, dataParagraph: h2.nextSibling.innerText ? h2.nextSibling : h2.nextSibling.nextSibling.nextSibling.nextSibling}})
