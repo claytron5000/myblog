@@ -10,7 +10,7 @@ I was inspired by Eric Elliot's post on closures. He posted on twitter with this
 
 The long and short is that the automatic lexical closure in javascript allows us to give us data privacy, this can be compared to protected or private properties in OOP.
 
-Note: In the following example **I'm missing the main point!**, which is "Data privacy is an essential property that helps us program to an interface, not an implementation." What follows is a rather silly _implmentation_ using data privacy to hide secret values, not create an interface to be extended and built upon later. Most of these posts and side-projects are about playing and learning, so I'm excusing myself to do just that.
+Note: In the following example **I'm missing the main point!**, which is "Data privacy is an essential property that helps us program to an interface, not an implementation." What follows is a rather silly _implmentation_ using data privacy to hide secret values, not create an interface to be extended and built upon later. Most of these posts and side-projects are about playing and learning, so I'm excusing myself to do just that. (Update to this at the bottom.)
 
 The application I build here is a list of "users", their names and pictures can be accessed by anyone. However, their "secrets" are accessible only by making a request with the corresponding `accessToken`. Here's an example user:
 
@@ -164,3 +164,46 @@ getSecret: function (user) {
 ```
 
 There you have it, data privacy. And sure, the example is contrived, and defintely misses the point that this is most useful as a way to build applications, not implement secret management, but it was fun none-the-less. Thanks for hanging! The code is all [here](https://github.com/claytron5000/closure-experiment)
+
+---
+
+After a good night's sleep, I realized this example is getting close to a real interface I might build. While the list of users' tokens is contrived, a custom fetch client wrapper, that encapsulates some of the implementation details is actually a usable idea.
+
+Let's build a fetch wrapper for an interaction with an imagined JWT API endpoint. The goal is a custom fetch implementation that encapsulates the complexity of JWT authorization and re-authorization and allows developers to implement the `fetchClient` without having to recreate the JWT interactions.
+
+I'm using a couple imaginary modules here, one that decodes JWT tokens, checks expiration, etc. The other calls to the authorization endpoint to fetch a new token. Both of these are non-trivial, and might include there own encapsulation, but for this exercise I'm hand-waving them.
+
+```
+const fetchClient = (username, password) => {
+
+    const userPass = { username, password }
+    const expirationManager = (jwt) => {
+        return ImaginatyJwtModule.isExpiry(jwt) ? TokenFetcher(userPass) : jwt;
+    }
+
+    let currentToken = TokenFetcher(userPass)
+
+    return {
+        get: function(endpoint) {
+            // Since we're assuming the JWT token has an `exp` on it we can check for // expiration before calling back to the server, saving us a trip.
+            const token = expirationManager(currentToken);
+            fetch(endpoint, { token, method: 'GET' }).then(res => res.json())
+        },
+        post: function(endpoint, payload) {
+            const token = expirationManager(currentToken);
+            fetch(endpoint, { token, method: 'POST', ...payload }).then(res => res.json())
+        }
+    }
+    
+}
+```
+
+This could then be implemented like this:
+
+```
+const myClientFetch = clientFetch(username, password);
+// ... later on...
+myClient.get('/awesome/enpoint');
+```
+
+The `clientFetch` function is probably too high level to actually use `fetch` directly. We could encapsulate a lower-level `fetch` that would do the default POST request stuff that's repetative, and easy to forget: `{method, mode, cors, cache, etc.}`. These smaller encapsulated functions become easier to test, and can be composed into high-level functionality... but that's a story for another day. 
