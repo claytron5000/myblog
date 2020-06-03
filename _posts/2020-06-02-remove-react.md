@@ -20,7 +20,7 @@ But I want to examine a little deeper how I'm complicit in a system of white sup
 
  https://twitter.com/sebmck/status/1267500470831988738
 
-Facebook has shown itself to be a bad actor. This has been demonstrated at many different points, most relevant to the moment is that the President of the United States against our citizens, and Facebook has taken no action. I'm uninteresting in debating whether Facebook has editorial discretion, or if they're a public service, or any of the complexities this question engenders. The company is responsible for what appears on the site. Besides, there are any number of other ways Facebook has shown to be force for hatred, demagoguery, and authoritarianism. The axiom stands; Facebook is bad for society. If React is a tool for recruitment and on-boarding at Facebook, then I need to divest from React.
+Facebook has shown itself to be a bad actor. This has been demonstrated at many different points, most relevant to the moment is that the President of the United States threatened violence against our citizens, and Facebook has taken no action. I'm uninterested in debating whether Facebook has editorial discretion, or if they're a public service, or any of the complexities this question engenders. The company is responsible for what appears on the site. Besides, there are any number of other ways Facebook has shown to be force for hatred, demagoguery, and authoritarianism. The axiom stands; Facebook is bad for society. If React is a tool for recruitment and on-boarding at Facebook, then I need to divest from React.
 
 On my resume, about half of my selling points involve React. (The other half is Drupal, :waves: hi Drupal!) At work I'm currently building a React site, I'm sure it won't be the last. So how do I divest from this project when it's an intimate and important (read lucrative), part of my work life?
 
@@ -32,15 +32,15 @@ I'm going to loose that feeling. Step one for me is a mental step. From this poi
 Goodbye sweet React.
 
 ### 2. Learn new stuff
-After the sadness of step one, step two is a joy! I've wanted to go beyond "hello world" in Vue for a while, and this is a chance. Plus there's other exciting frameworks out there, Svelte and Ember to name a few. Hey, maybe I should focus on the backend more.
+After the sadness of step one, step two is a joy! I've wanted to go beyond "hello world" in Vue for a while, and this is a chance. Plus ther are other exciting frameworks out there, Svelte and Ember to name a few. Maybe there are more projects with more involvement with Black developers. 
 
-Whatever project I next focus on (or 5 projects, let's be real), I will again attempt to be conscious of where the project comes from, and who benefits from more engagement. Should I choose Angular, which is a Google property? Is Google as bad as Facebook? Does Google actually benefit with more engagement with Angular if they don't use it in house? (That's supposed to be a dig.) 
+Whatever project I next focus on (or 5 projects, let's be real), I will attempt to be conscious of where the project comes from, and who benefits from more engagement. Should I choose Angular, which is a Google property? Is Google as bad as Facebook? Does Google actually benefit with more engagement with Angular if they don't use it in house? (That's supposed to be a dig.) 
 
-There are no apolitical choices, and neither are there perfect choices. The best I can do going forward is to be conscious of the choice, and to have more awareness of where code is coming from.
+There are no apolitical choices, and neither are there perfect choices. The best I can do going forward is to be conscious of the choice, and to have more awareness of where code is coming from, and who it benefits.
 
 
 ### 3. Push for other tools at work
-The place where the rubber meets the road will be when I'm asked what tool would work for a given problem, or client. I need be deep enough into step two to be able to offer alternatives and give cogent answers as to why Ember over React.
+The place where the rubber meets the road will be when I'm asked what tool would work for a given problem or client. I need be deep enough into step two to be able to offer alternatives and give cogent answers as to why Vue or Ember over React.
 
 I think not supporting Facebook is a good reason, but I know it won't fly in a business environment. Though I will again attempt to tie the tool to the company so that co-workers and clients understand where this code comes from, even if they don't have my priors about Facebook's negative effect.
 
@@ -51,4 +51,9 @@ Every bit of non-React writing out in the world will help to diminish the influe
 I don't know anyone on the React team personally, but some of them have a strong presence online. I count some of them as my most important Twitter follows, and people I respect for their technical writing, as well as their personal bearing. Saying "diminish the influence of React," even as limited my influence is, feels like I'm slapping them in the face.
 
 ## Real change
-I won't kid myself, this is a pretty small change. And it's certainly not a sacrifice, and not a big risk. If anything, following through on these steps will make me more employable. Police brutality, creeping authoritarianism, these are acute problems that need direct answers now. The change I'm proposing is small, and indirect. However, it's doable, and it's something I can achieve right now.
+I won't kid myself, this is a pretty small change. And it's certainly not a sacrifice, and not a big risk. If anything, following through on these steps will make me more employable and more valuable to employer. 
+
+Facebook is easy to vilify (thanks, Zuck), and making Facebook the big bad enemy does nothing to address the systemic racism, sexism, ageism in tech companies and culture. But police brutality, creeping authoritarianism: these are acute problems that need direct answers now. The change I'm proposing is small, however, it's action and a first step, and we all need to take first steps.
+
+#BlackLivesMatter
+#RemoveReact
