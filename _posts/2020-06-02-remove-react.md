@@ -8,17 +8,16 @@ permalink: /npm-remove-react/
 categories:
   - Uncategorized
 ---
-# Remove React
 
 In the face of police violence toward Black Americans I feel mostly helpless and useless. I'm not in the path of police violence; I'm white, employed, and comfortable, and with two kids depending on my income, it's easy to remain inactive and on the sidelines. While I can state clearly, Black Lives Matter, I don't have an obvious means of action.
 
 But I want to examine a little deeper how I'm complicit in a system of white supremacy through my engagement with the React framework. And, no, I don't particularly want to address my personal prejudices, built-in racist ideas, or other errors and mistakes I've made in my life. This is (mostly) a technical blog after all. But there was a thread on twitter the other day that nibbled at my brain, and brought up some latent thoughts that have been tumbling around my head.
  
- https://twitter.com/aweary/status/1267472739960369153
+ [https://twitter.com/aweary/status/1267472739960369153](https://twitter.com/aweary/status/1267472739960369153)
 
  and 
 
- https://twitter.com/sebmck/status/1267500470831988738
+ [https://twitter.com/sebmck/status/1267500470831988738](https://twitter.com/sebmck/status/1267500470831988738)
 
 Facebook has shown itself to be a bad actor. This has been demonstrated at many different points, most relevant to the moment is that the President of the United States threatened violence against our citizens, and Facebook has taken no action. I'm uninterested in debating whether Facebook has editorial discretion, or if they're a public service, or any of the complexities this question engenders. The company is responsible for what appears on the site. Besides, there are any number of other ways Facebook has shown to be force for hatred, demagoguery, and authoritarianism. The axiom stands; Facebook is bad for society. If React is a tool for recruitment and on-boarding at Facebook, then I need to divest from React.
 
@@ -55,5 +54,5 @@ I won't kid myself, this is a pretty small change. And it's certainly not a sacr
 
 Facebook is easy to vilify (thanks, Zuck), and making Facebook the big bad enemy does nothing to address the systemic racism, sexism, ageism in tech companies and culture. But police brutality, creeping authoritarianism: these are acute problems that need direct answers now. The change I'm proposing is small, however, it's action and a first step, and we all need to take first steps.
 
-#BlackLivesMatter
-#RemoveReact
+[#BlackLivesMatter](https://twitter.com/search?q=%23BlackLivesMatter)
+[#RemoveReact](https://twitter.com/search?q=%23RemoveReact)
