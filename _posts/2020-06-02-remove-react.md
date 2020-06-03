@@ -9,7 +9,7 @@ categories:
   - Uncategorized
 ---
 
-In the face of police violence toward Black Americans I feel mostly helpless and useless. I'm not in the path of police violence; I'm white, employed, and comfortable, and with two kids depending on my income, it's easy to remain inactive and on the sidelines. While I can state clearly, Black Lives Matter, I don't have an obvious means of action.
+In the face of police violence toward Black Americans I feel mostly helpless and useless. I'm not in the path of police violence; I'm white, employed, and comfortable, and with two kids depending on my income, it's easy to remain inactive and on the sidelines. While I can state clearly, Black Lives Matter, I didn't have an obvious means of action.
 
 But I want to examine a little deeper how I'm complicit in a system of white supremacy through my engagement with the React framework. And, no, I don't particularly want to address my personal prejudices, built-in racist ideas, or other errors and mistakes I've made in my life. This is (mostly) a technical blog after all. But there was a thread on twitter the other day that nibbled at my brain, and brought up some latent thoughts that have been tumbling around my head.
  
