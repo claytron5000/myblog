@@ -1,5 +1,3 @@
-## Swift advent and regex
-
 id: 38
 title: Advent of Swift
 date: 2020-12-09-00:00:00
