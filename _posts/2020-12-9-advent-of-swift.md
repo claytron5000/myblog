@@ -1,9 +1,9 @@
+---
 id: 38
 title: Advent of Swift
 date: 2020-12-09-00:00:00
 author: Clayton Salem
 layout: post
-
 ---
 
 Like so many of my potential readers I’m participating in this year’s [advent of code](https://adventofcode.com/). This presents me with an opportunity to learn Swift, Apple’s app-oriented language and successor to Objective-C. There are always challenges learning a new language, and I expected those, what surprised me was how far Swift is from my daily drivers: JavaScript and PHP, and my go to “toy” language, Python. (Toy, as in, I almost never finish a Python project, not that the language is a toy).
