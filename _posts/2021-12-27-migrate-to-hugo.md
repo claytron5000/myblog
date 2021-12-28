@@ -83,3 +83,7 @@ Once I did all that, I then re-imported this blog so that I'd get the latest con
 Like most things in software develoment, it mostly sucked. Certainly Hugo is a tool made for developers, and I can't imagine a non-dev trying to set this thing up. The inevitable complications with a host, even one as easy as github pages added a layer of difficulty. This first test, Jeykll to Hugo is probably the easiest, both tools are static site generators that use the same markup for content. 
 
 On the bright side, Hugo is as fast as advertised. My ~37 blog posts are not the best test case, but it was certainly fast. I could see myself fully migrating the site if I could be arsed, but I probably can't. From a user perspective there's little that Hugo offers that Jekyll doesn't have. (Next time I struggle with `gem update`, I may sing a different tune.)
+
+# Addendum
+
+After pushing this post to the Jekyll site I'm sitting waiting for the thing to build. And like, a while. It might actually be worth the time to migrate for real. Also, I have updates to my gems or bundles or whatever, and I can't figure out how to update them, which seems to happen everytimes I touch this site. After installing yet another ruby shim, I'm on my way to publishing this post, and I'm thinking maybe Hugo is looking good after all.
